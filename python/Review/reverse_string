@@ -1,0 +1,15 @@
+
+def reverse_string(text):
+    result= ""
+    for i in range(len(text)-1,-1,-1): #range(start(inclusive),stop, range(exclusive))
+        result +=text[i]
+    return result
+
+print(reverse_string("Amy Rose"))
+
+def reverse_sliced(text):
+    return text[::-1] # (start:top:step)  autofilled when left blank
+# - shows direction (backword)
+
+print(reverse_sliced("is the best"))
+
